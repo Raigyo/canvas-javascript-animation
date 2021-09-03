@@ -17,3 +17,5 @@ _September 2021_
 ### Content
 
 ## Useful links
+
+- [MDN API Canvas](https://developer.mozilla.org/fr/docs/Web/API/Canvas_API)
