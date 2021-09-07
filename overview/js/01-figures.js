@@ -9,7 +9,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-window.addEventListener("resize", function () {
+window.addEventListener("change", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
   init();

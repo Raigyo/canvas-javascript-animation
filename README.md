@@ -19,3 +19,5 @@ _September 2021_
 ## Useful links
 
 - [MDN API Canvas](https://developer.mozilla.org/fr/docs/Web/API/Canvas_API)
+- [Unsplash Source](https://source.unsplash.com/)
+- [CanvasRenderingContext2D.globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
