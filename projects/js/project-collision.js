@@ -20,7 +20,7 @@ const distanceMiddleCircle = (x1, y1, x2, y2) => {
 
 class Circle {
   constructor(x, y, radius, color) {
-    this.x = x;
+    this.x = window.innerWidth / 2;
     this.y = y;
     this.radius = radius;
     this.color = color;
@@ -42,8 +42,9 @@ const animate = () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   circle1.draw();
   canvas.addEventListener("mousemove", (e) => {
-    circle2.x = e.clientX; // = mouse position
-    circle2.y = e.clientY;
+    const rect = canvas.getBoundingClientRect(); // canvas position
+    circle2.x = e.clientX - rect.left; // = mouse position inside canvas
+    circle2.y = e.clientY - rect.top;
   });
   circle2.draw();
   // console.log(distanceMiddleCircle(circle1.x, circle1.y, circle2.x, circle2.y));

@@ -2,7 +2,7 @@
 
 _September 2021_
 
-> 🔨 From Udemy [Créez des animations javascript avec l'HTML Canvas - Enzo Ustariz](https://www.udemy.com/course/creez-des-animations-avec-lhtml-canvas).
+> 🔨 Canvas and Javascript overview with exemples. From Udemy [Créez des animations javascript avec l'HTML Canvas - Enzo Ustariz](https://www.udemy.com/course/creez-des-animations-avec-lhtml-canvas).
 
 ---
 
@@ -10,11 +10,7 @@ _September 2021_
     <img src="_readme-img/canvas-logo.png">
 </h1>
 
-## Demo on Github pages
-
-## Overview
-
-### Content
+Demo on Github pages
 
 ## Useful links
 
@@ -22,3 +18,4 @@ _September 2021_
 - [Unsplash Source](https://source.unsplash.com/)
 - [CanvasRenderingContext2D.globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
 - [La géométrie du cercle](https://debart.pagesperso-orange.fr/ts/geometrie_cercle.html)
+- [Element.getBoundingClientRect()](https://developer.mozilla.org/fr/docs/Web/API/Element/getBoundingClientRect)
